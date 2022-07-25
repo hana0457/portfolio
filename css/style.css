@@ -27,7 +27,8 @@ header .wrap{
     max-width: 1200px;
     margin: 0 auto;
 }
-header .wrap .tit{display: flex;}
+header .wrap .tit{}
+header .wrap .tit a{display: flex;}
 header .wrap .tit p{margin: 3px 0 0 10px;}
 header .wrap .nav{
     display: flex;
