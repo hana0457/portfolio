@@ -109,6 +109,7 @@ header .wrap .nav p:last-child{margin-right: 0;}
     background-color: #1e1d1d;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .skill .wrap .part .part-wrap .content-wrap{
     max-width: 1200px;
@@ -158,6 +159,7 @@ header .wrap .nav p:last-child{margin-right: 0;}
 }
 .stacks .wrap .design{
     max-width: 1200px;
+    min-width: 1000px;
     margin: 330px 200px 0;
 }
 .stacks .wrap .design .design-wrap{
@@ -218,6 +220,7 @@ header .wrap .nav p:last-child{margin-right: 0;}
     margin: 130px 0 330px;
 }
 .stacks .wrap .code .code-img img{margin-left: auto;}
+.stacks .wrap .code .code-img img:first-child{margin-left: 0;}
 
 /* stacks finish */
 
@@ -265,7 +268,8 @@ header .wrap .nav p:last-child{margin-right: 0;}
     font-size: 30px;
     box-sizing: border-box;
     border-top: 10px solid #fff;
-    margin: 0 200px;
+    /* margin: 0 200px; */
+    margin: 0 auto;
     max-width: 1200px;
 }
 .portfolio .wrap .sub-tit p{
@@ -325,6 +329,9 @@ header .wrap .nav p:last-child{margin-right: 0;}
 .portfolio .wrap .box .txt-wrap .img-wrap img{
     width: 100%;
     height: auto;
+}
+.portfolio .wrap .swiper{
+    max-width: 1400px;
 }
 .portfolio .wrap .swiper .swiper-button-next{
     color: #fff;
