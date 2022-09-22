@@ -132,8 +132,27 @@ header .wrap .nav p:last-child{margin-right: 0;}
     margin-right: 0;
 }
 .stacks .wrap .design .img-wrap img{
-    width: calc(100%/6.5);
+    /* width: calc(100%/6.5); */
 }
+.stacks .wrap .design .img-wrap img{
+    width: 400px;
+    height: auto;
+}
+.stacks .wrap .design .img-wrap .ps-img{
+    display: flex;
+    justify-content: right;
+    margin: 40px 0;
+}
+
+.stacks .wrap .design .img-wrap img.one{
+    margin-right: 40px;
+}
+.stacks .wrap .design .img-wrap img.two{
+    margin-left: 40px;
+}
+.stacks .wrap .design .img-wrap .ps-img{}
+.stacks .wrap .design .img-wrap .procreate-img{}
+
 /* .stacks .wrap .design .img-wrap img.one{width: 400px; height: auto;}
 .stacks .wrap .design .img-wrap img.two{width: 400px; height: auto; margin-bottom: 30px;}
 .stacks .wrap .design .img-wrap img.three{width: 400px; height: auto;}
