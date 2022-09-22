@@ -125,8 +125,22 @@ header .wrap .nav p:last-child{margin-right: 0;}
     line-height: 30px;
     margin-top: 30px;
 }
-.stacks .wrap .design .design-img{margin: 130px 0 330px;}
+.stacks .wrap .design .design-img{margin: 130px 0 130px;}
 .stacks .wrap .design .design-img img{margin-right: 110px;}
+.stacks .wrap .design .img-wrap{
+    margin-bottom: 330px;
+    margin-right: 0;
+}
+.stacks .wrap .design .img-wrap img{
+    width: calc(100%/6.5);
+}
+/* .stacks .wrap .design .img-wrap img.one{width: 400px; height: auto;}
+.stacks .wrap .design .img-wrap img.two{width: 400px; height: auto; margin-bottom: 30px;}
+.stacks .wrap .design .img-wrap img.three{width: 400px; height: auto;}
+.stacks .wrap .design .img-wrap img.for{width: 400px; height: auto; margin-bottom: 30px;}
+.stacks .wrap .design .img-wrap img.five{width: 400px; height: auto;}
+.stacks .wrap .design .img-wrap img.six{width: 400px; height: auto;} */
+
 .stacks .wrap .code{
     margin: 0 200px 0;
     max-width: 1200px;
